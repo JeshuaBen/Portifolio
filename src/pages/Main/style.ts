@@ -6,5 +6,5 @@ export const Container = styled.div`
   padding: 1rem;
   display: flex;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.darkBlue};
+  background-color: ${({ theme }) => theme.colors.black};
 `;
