@@ -15,10 +15,10 @@ import {
 export const UserInfo = () => {
   return (
     <Container>
-      <Image />
+      <Image src="https://avatars.githubusercontent.com/u/89667317?v=4" />
       <UserWrapper>
-        <Name></Name>
-        <Description></Description>
+        <Name>Jeshua Costa</Name>
+        <Description>Software Engineer</Description>
         <SocialMedia>
           <GithubIcon></GithubIcon>
           <TwitterIcon></TwitterIcon>

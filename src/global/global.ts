@@ -21,4 +21,8 @@ body {
   background-attachment: fixed !important;
   opacity: 1;
 }
+
+button {
+  cursor: pointer;
+}
 `;

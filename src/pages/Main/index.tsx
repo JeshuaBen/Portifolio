@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "../../components/Header";
-import { UserWrapper } from "../../components/UserInfo/style";
+import { UserInfo } from "../../components/UserInfo";
 
 import { Container } from "./style";
 
@@ -8,7 +8,7 @@ export const Main = () => {
   return (
     <Container>
       <Header />
-      <UserWrapper />
+      <UserInfo />
     </Container>
   );
 };
