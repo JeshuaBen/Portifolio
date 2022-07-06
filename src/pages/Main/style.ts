@@ -10,3 +10,13 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: ${({ theme }) => theme.colors.black};
 `;
+
+export const Content = styled.div`
+  max-width: 760px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+`;

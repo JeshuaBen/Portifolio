@@ -8,9 +8,6 @@ import {
   Projects,
   AmountOfProjects,
   ProjectDescription,
-  Customers,
-  AmountOfCustomers,
-  DescriptionCustomers,
 } from "./style";
 
 interface DescriptionProps {
@@ -18,8 +15,6 @@ interface DescriptionProps {
   workExperience: string;
   amountOfProjects: number;
   projectDescription: string;
-  amountOfCustomers: number;
-  descriptionCustomers: string;
 }
 
 interface Props {
@@ -32,19 +27,14 @@ export const Description = ({ data }: Props) => {
       <Experience>
         <Years>{data.years}</Years>
         <WorkExperience>
-          {data.years === 1 ? "Year of work experience" : data.workExperience}
+          {data.years === 1 ? `Year of work experience` : data.workExperience}
         </WorkExperience>
       </Experience>
 
       <Projects>
-        <AmountOfProjects>{data.amountOfProjects}</AmountOfProjects>
+        <AmountOfProjects>{data.amountOfProjects}+</AmountOfProjects>
         <ProjectDescription>{data.projectDescription}</ProjectDescription>
       </Projects>
-
-      <Customers>
-        <AmountOfCustomers>{data.amountOfCustomers}</AmountOfCustomers>
-        <DescriptionCustomers>{data.descriptionCustomers}</DescriptionCustomers>
-      </Customers>
     </Container>
   );
 };

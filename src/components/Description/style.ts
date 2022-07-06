@@ -5,22 +5,49 @@ export const Container = styled.div`
   width: 100%;
 
   display: flex;
+  align-items: center;
+
+  margin-top: 2rem;
+  padding: 1.2rem 2rem;
 `;
 
-export const Experience = styled.div``;
+export const Experience = styled.div`
+  width: 48%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-export const Years = styled.span``;
+  margin-right: 5.6rem;
+`;
 
-export const WorkExperience = styled.span``;
+export const Years = styled.span`
+  font-size: 1.5rem;
 
-export const Projects = styled.div``;
+  color: ${({ theme }) => theme.colors.gray};
+`;
 
-export const AmountOfProjects = styled.span``;
+export const WorkExperience = styled.span`
+  font-size: 1.2rem;
 
-export const ProjectDescription = styled.span``;
+  color: ${({ theme }) => theme.colors.gray};
+`;
 
-export const Customers = styled.div``;
+export const Projects = styled.div`
+  width: 48%;
 
-export const AmountOfCustomers = styled.span``;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+`;
 
-export const DescriptionCustomers = styled.span``;
+export const AmountOfProjects = styled.span`
+  font-size: 1.5rem;
+
+  color: ${({ theme }) => theme.colors.gray};
+`;
+
+export const ProjectDescription = styled.span`
+  font-size: 1.2rem;
+
+  color: ${({ theme }) => theme.colors.gray};
+`;
