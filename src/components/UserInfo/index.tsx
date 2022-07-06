@@ -18,7 +18,7 @@ export const UserInfo = () => {
       <Image src="https://avatars.githubusercontent.com/u/89667317?v=4" />
       <UserWrapper>
         <Name>Jeshua Costa</Name>
-        <Description>Software Engineer</Description>
+        <Description>Mobile Developer</Description>
         <SocialMedia>
           <GithubIcon></GithubIcon>
           <TwitterIcon></TwitterIcon>
