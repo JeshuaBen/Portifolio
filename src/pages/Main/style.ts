@@ -20,3 +20,9 @@ export const Content = styled.div`
   justify-content: flex-start;
   flex-direction: column;
 `;
+
+export const ButtonsContainer = styled.div`
+  width: 620px;
+
+  margin-top: 2rem;
+`;
