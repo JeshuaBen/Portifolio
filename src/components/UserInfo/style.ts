@@ -10,11 +10,11 @@ export const Container = styled.div`
   padding: 0 2px;
 `;
 export const Image = styled.img`
-  width: 215px;
-  height: 215px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 
-  margin-right: 2.5rem;
+  margin-right: 3rem;
 `;
 export const UserWrapper = styled.div`
   display: flex;

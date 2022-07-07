@@ -30,7 +30,7 @@ export const WorkExperience = styled.p`
 `;
 
 export const Projects = styled.div`
-  margin: 0 2rem;
+  margin: 0 4rem;
   display: flex;
   flex-direction: column;
 `;

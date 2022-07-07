@@ -11,6 +11,12 @@ export const Container = styled.button`
   justify-content: center;
   align-items: center;
   background-color: ${({ theme }) => theme.colors.yellow};
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `;
 
 export const Text = styled.span`
