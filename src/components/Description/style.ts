@@ -12,12 +12,9 @@ export const Container = styled.div`
 `;
 
 export const Experience = styled.div`
-  width: 48%;
   display: flex;
   align-items: center;
   flex-direction: column;
-
-  margin-right: 5.6rem;
 `;
 
 export const Years = styled.span`
@@ -26,28 +23,42 @@ export const Years = styled.span`
   color: ${({ theme }) => theme.colors.gray};
 `;
 
-export const WorkExperience = styled.span`
+export const WorkExperience = styled.p`
   font-size: 1.2rem;
-
+  text-align: center;
   color: ${({ theme }) => theme.colors.gray};
 `;
 
 export const Projects = styled.div`
-  width: 48%;
-
+  margin: 0 2rem;
   display: flex;
-  align-items: center;
   flex-direction: column;
 `;
 
 export const AmountOfProjects = styled.span`
   font-size: 1.5rem;
-
+  text-align: center;
   color: ${({ theme }) => theme.colors.gray};
 `;
 
-export const ProjectDescription = styled.span`
+export const ProjectDescription = styled.p`
   font-size: 1.2rem;
+  text-align: center;
+  color: ${({ theme }) => theme.colors.gray};
+`;
 
+export const Downloads = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+export const AmountOfDownloads = styled.span`
+  font-size: 1.5rem;
+  text-align: center;
+  color: ${({ theme }) => theme.colors.gray};
+`;
+export const DownloadsDescription = styled.p`
+  font-size: 1.2rem;
+  text-align: center;
   color: ${({ theme }) => theme.colors.gray};
 `;

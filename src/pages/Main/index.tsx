@@ -12,6 +12,7 @@ export const Main = () => {
     workExperience: "Years of work experience",
     amountOfProjects: 22,
     projectDescription: "Completed\n projects",
+    amountOfDownloads: 0,
   };
 
   return (

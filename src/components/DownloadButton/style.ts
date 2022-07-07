@@ -4,18 +4,18 @@ import { HiDownload } from "react-icons/hi";
 
 export const Container = styled.button`
   width: 290px;
-  height: 5rem;
-  padding: 1.5rem 2.6rem;
+  height: 4.2rem;
+  padding: 1.5rem 0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-
+  align-items: center;
   background-color: ${({ theme }) => theme.colors.yellow};
 `;
 
 export const Text = styled.span`
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-right: 0.8rem;
 
   color: ${({ theme }) => theme.colors.dark};
