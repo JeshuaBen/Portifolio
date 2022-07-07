@@ -31,7 +31,7 @@ export const Description = ({ data }: Props) => {
       <Experience>
         <Years>{data.years}</Years>
         <WorkExperience>
-          {data.years === 1 ? `Year of work\n experience` : data.workExperience}
+          {data.years === 1 ? `Year of work experience` : data.workExperience}
         </WorkExperience>
       </Experience>
 

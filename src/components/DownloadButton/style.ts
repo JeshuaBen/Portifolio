@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { HiDownload } from "react-icons/hi";
 
 export const Container = styled.button`
-  width: 290px;
+  width: 48%;
   height: 4.2rem;
   padding: 1.5rem 0;
   border-radius: 10px;

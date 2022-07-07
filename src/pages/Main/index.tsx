@@ -1,4 +1,5 @@
 import React from "react";
+import { ContactMeButton } from "../../components/ContactMeButton";
 import { Description } from "../../components/Description";
 import { DownloadButton } from "../../components/DownloadButton";
 import { Header } from "../../components/Header";
@@ -23,6 +24,7 @@ export const Main = () => {
         <Description data={dataInfo} />
         <ButtonsContainer>
           <DownloadButton />
+          <ContactMeButton />
         </ButtonsContainer>
       </Content>
     </Container>
