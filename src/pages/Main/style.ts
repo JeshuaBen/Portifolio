@@ -26,5 +26,14 @@ export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
 
-  margin-top: 1.4rem;
+  margin: 1rem 0 2rem;
+`;
+
+export const SelectedOption = styled.div`
+  width: 756px;
+  height: 132px;
+
+  background-color: ${({ theme }) => theme.colors.darkBlue};
+
+  border-radius: 20px;
 `;

@@ -5,9 +5,9 @@ import { DownloadButton } from "../../components/DownloadButton";
 import { Header } from "../../components/Header";
 import { UserInfo } from "../../components/UserInfo";
 
-import { Container, Content, ButtonsContainer } from "./style";
+import { Container, Content, ButtonsContainer, SelectedOption } from "./style";
 
-export const Main = () => {
+export const Main: React.FC = () => {
   const dataInfo = {
     years: 1,
     workExperience: "Years of work experience",
@@ -19,6 +19,7 @@ export const Main = () => {
   return (
     <Container>
       <Header />
+
       <Content>
         <UserInfo />
         <Description data={dataInfo} />
@@ -26,6 +27,8 @@ export const Main = () => {
           <DownloadButton />
           <ContactMeButton />
         </ButtonsContainer>
+
+        <SelectedOption></SelectedOption>
       </Content>
     </Container>
   );

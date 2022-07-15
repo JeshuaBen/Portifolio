@@ -25,7 +25,7 @@ interface Props {
   data: DescriptionProps;
 }
 
-export const Description = ({ data }: Props) => {
+export const Description: React.FC<Props> = ({ data }) => {
   return (
     <Container>
       <Experience>

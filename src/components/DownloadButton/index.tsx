@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Text, Icon } from "./style";
 
-export const DownloadButton = () => {
+export const DownloadButton: React.FC = () => {
   return (
     <Container>
       <Text>Download CV</Text>
