@@ -10,6 +10,9 @@ import {
   GithubIcon,
   TwitterIcon,
   LinkedinIcon,
+  LinkGithub,
+  LinkTwitter,
+  LinkLinkedin,
 } from "./style";
 
 export const UserInfo: React.FC = () => {
@@ -20,9 +23,18 @@ export const UserInfo: React.FC = () => {
         <Name>Jeshua Costa</Name>
         <Description>Mobile Developer</Description>
         <SocialMedia>
-          <GithubIcon></GithubIcon>
-          <TwitterIcon></TwitterIcon>
-          <LinkedinIcon></LinkedinIcon>
+          <LinkGithub href="https://github.com/JeshuaBen" target="_blank">
+            <GithubIcon />
+          </LinkGithub>
+          <LinkTwitter href="https://twitter.com/gvezesg" target="_blank">
+            <TwitterIcon />
+          </LinkTwitter>
+          <LinkLinkedin
+            href="https://www.linkedin.com/in/jeshua-costa-0792921b5/"
+            target="_blank"
+          >
+            <LinkedinIcon />
+          </LinkLinkedin>
         </SocialMedia>
       </UserWrapper>
     </Container>

@@ -46,15 +46,23 @@ export const GithubIcon = styled(FaGithub)`
 
   margin-right: 1.4rem;
 `;
-export const TwitterIcon = styled(FaLinkedin)`
+
+export const LinkGithub = styled.a``;
+
+export const TwitterIcon = styled(FaTwitter)`
   height: 1.8rem;
   width: 1.8rem;
   color: ${({ theme }) => theme.colors.gray};
 
   margin-right: 1.4rem;
 `;
-export const LinkedinIcon = styled(FaTwitter)`
+
+export const LinkTwitter = styled.a``;
+
+export const LinkedinIcon = styled(FaLinkedin)`
   height: 1.8rem;
   width: 1.8rem;
   color: ${({ theme }) => theme.colors.gray};
 `;
+
+export const LinkLinkedin = styled.a``;
