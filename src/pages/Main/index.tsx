@@ -3,10 +3,17 @@ import { ContactMeButton } from "../../components/ContactMeButton";
 import { Description } from "../../components/Description";
 import { DownloadButton } from "../../components/DownloadButton";
 import { Header } from "../../components/Header";
+import { ProjectCard } from "../../components/ProjectCard";
 import { TabButton } from "../../components/TabButton";
 import { UserInfo } from "../../components/UserInfo";
 
-import { Container, Content, ButtonsContainer, SelectedOption } from "./style";
+import {
+  Container,
+  Content,
+  ButtonsContainer,
+  SelectedOption,
+  CardsContainer,
+} from "./style";
 
 export const Main: React.FC = () => {
   const dataInfo = {
@@ -30,10 +37,19 @@ export const Main: React.FC = () => {
         </ButtonsContainer>
 
         <SelectedOption>
-          <TabButton text="Portifólio" active={true} />
+          <TabButton text="Portfolio" active={true} />
           <TabButton text="Skills" active={false} />
         </SelectedOption>
       </Content>
+
+      <CardsContainer>
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+        <ProjectCard />
+      </CardsContainer>
     </Container>
   );
 };
