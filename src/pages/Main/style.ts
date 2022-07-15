@@ -32,6 +32,11 @@ export const ButtonsContainer = styled.div`
 export const SelectedOption = styled.div`
   width: 756px;
   height: 132px;
+  padding: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   background-color: ${({ theme }) => theme.colors.darkBlue};
 

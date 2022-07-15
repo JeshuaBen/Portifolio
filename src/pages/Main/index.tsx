@@ -3,6 +3,7 @@ import { ContactMeButton } from "../../components/ContactMeButton";
 import { Description } from "../../components/Description";
 import { DownloadButton } from "../../components/DownloadButton";
 import { Header } from "../../components/Header";
+import { TabButton } from "../../components/TabButton";
 import { UserInfo } from "../../components/UserInfo";
 
 import { Container, Content, ButtonsContainer, SelectedOption } from "./style";
@@ -28,7 +29,10 @@ export const Main: React.FC = () => {
           <ContactMeButton />
         </ButtonsContainer>
 
-        <SelectedOption></SelectedOption>
+        <SelectedOption>
+          <TabButton text="Portifólio" active={true} />
+          <TabButton text="Skills" active={false} />
+        </SelectedOption>
       </Content>
     </Container>
   );
