@@ -13,7 +13,7 @@ export const Main: React.FC = () => {
     years: 1,
     workExperience: "Years of work experience",
     amountOfProjects: 22,
-    projectDescription: "Completed\n projects",
+    projectDescription: "Completed projects",
     amountOfDownloads: 0,
   };
 

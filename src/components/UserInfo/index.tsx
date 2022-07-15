@@ -12,7 +12,7 @@ import {
   LinkedinIcon,
 } from "./style";
 
-export const UserInfo = () => {
+export const UserInfo: React.FC = () => {
   return (
     <Container>
       <Image src="https://avatars.githubusercontent.com/u/89667317?v=4" />

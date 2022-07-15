@@ -42,7 +42,7 @@ export const Description: React.FC<Props> = ({ data }) => {
 
       <Downloads>
         <AmountOfDownloads>{data.amountOfDownloads}</AmountOfDownloads>
-        <DownloadsDescription>Downloads currículo</DownloadsDescription>
+        <DownloadsDescription>Downloads curricullum</DownloadsDescription>
       </Downloads>
     </Container>
   );

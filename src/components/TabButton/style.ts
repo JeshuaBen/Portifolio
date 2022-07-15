@@ -14,6 +14,12 @@ export const Container = styled.button<ButtonProps>`
   border-radius: 10px;
   background-color: ${({ active, theme }) =>
     active ? theme.colors.black : theme.colors.darkBlue};
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
 `;
 
 export const Text = styled.span`
