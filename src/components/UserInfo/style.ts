@@ -37,6 +37,7 @@ export const Description = styled.span`
 `;
 
 export const SocialMedia = styled.div`
+  display: flex;
   margin-top: 0.8rem;
 `;
 export const GithubIcon = styled(FaGithub)`

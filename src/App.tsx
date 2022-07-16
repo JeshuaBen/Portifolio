@@ -8,12 +8,12 @@ import GlobalStyles from "./global/global";
 
 function App() {
   return (
-    <ThemeProvider theme={theme}>
-      <ChakraProvider>
+    <ChakraProvider>
+      <ThemeProvider theme={theme}>
         <GlobalStyles />
         <Main />
-      </ChakraProvider>
-    </ThemeProvider>
+      </ThemeProvider>
+    </ChakraProvider>
   );
 }
 
