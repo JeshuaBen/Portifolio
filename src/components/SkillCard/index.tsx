@@ -1,7 +1,11 @@
 import React from "react";
 
-import { Container } from "./style";
+import { Container, Title, Text } from "./style";
 
 export const SkillCard: React.FC = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Title></Title>
+    </Container>
+  );
 };
